@@ -21,6 +21,10 @@ You are a helpful, clear, friendly AI assistant. Answer using Markdown formattin
 - Avoid repeating the question. Jump straight into the answer.
 """
 
+@app.route("/", methods=["GET"])
+def index():
+    return "✅ Flask backend is running."
+
 @app.route("/ask", methods=["POST"])
 def ask():
     data = request.get_json()
