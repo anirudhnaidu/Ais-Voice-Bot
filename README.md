@@ -1,7 +1,7 @@
 # 🎙️ AI's Voice Bot 🤖  
 An intelligent voice-based chatbot powered by Google's Gemini AI — speak naturally and receive smart, beautifully formatted answers in real-time.
 
-![AI Voice Bot Demo Banner](frontend\demo img.png) <!-- Optional -->
+![AI Voice Bot Demo Banner](frontend/logo.png) <!-- Optional -->
 
 ---
 
@@ -27,7 +27,7 @@ An intelligent voice-based chatbot powered by Google's Gemini AI — speak natur
 
 ## 📸 Demo
 
-![Demo GIF or Screenshot](frontend\demo img.png)
+![Demo GIF or Screenshot](frontend/demo%20img.png)
 
 ---
 
