@@ -76,13 +76,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-purple-200 flex items-center justify-center p-4 sm:p-6 md:p-8 lg:p-12">
-      <div
-        id="mid"
-        className="bg-white rounded-3xl shadow-2xl p-5 max-w-2xl w-full px-4 sm:px-6 md:px-8"
-      >
+      <div id="mid" className="bg-white rounded-3xl shadow-2xl p-5 max-w-2xl w-full px-4 sm:px-6 md:px-8">
         {/* Header */}
         <h1 className="flex justify-center items-center">
-          <img src="/logo.png" alt="AI Voice Bot Icon" className="h-40 w-40" />
+          <img src="./logo.png" alt="AI Voice Bot Icon" className="h-40 w-40" />
         </h1>
         <h1 className="text-3xl font-bold text-center text-purple-700 mb-2">AI's Voice Bot</h1>
         <p className="text-center text-lg text-purple-500 mb-6">How can I help you?</p>
