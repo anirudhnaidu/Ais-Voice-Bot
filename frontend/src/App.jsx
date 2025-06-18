@@ -36,7 +36,7 @@ function App() {
       setQuestion(transcript);
 
       try {
-        const response = await fetch('https://your-backend.onrender.com/ask', {
+        const response = await fetch('https://ais-voice-bot-2.onrender.com/ask', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: transcript }),
