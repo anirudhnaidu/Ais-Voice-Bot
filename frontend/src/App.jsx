@@ -114,7 +114,9 @@ function App() {
           <div>
             <p className="font-medium text-gray-800 mb-1">🤖 Bot's Response:</p>
             <div className="bg-green-100 p-4 rounded-xl text-gray-800 min-h-[3rem] prose max-w-none">
-              <ReactMarkdown>{answer || '...'}</ReactMarkdown>
+              <ReactMarkdown>{answer === '' && listening && (
+  <div className="text-center text-gray-500 mt-4">⏳ Waiting for AI response...</div>
+)}</ReactMarkdown>
             </div>
           </div>
         </div>
